@@ -1,0 +1,14 @@
+puts "Combien d'étages voulez-vous ?"
+print"> "
+block = "#"
+space = " "
+i = 0
+nb = gets.chomp.to_i
+temp_space = nb - 1
+temp_block = 1
+    while i < nb
+        puts (space * temp_space) + (block * temp_block)
+        temp_space -= 1
+        temp_block += 2
+        i+=1
+    end

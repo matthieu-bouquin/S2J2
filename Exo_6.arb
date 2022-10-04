@@ -1,0 +1,6 @@
+puts "dis un nombre de bonjour"
+number = gets.chomp.to_i
+newnumber = number - 1
+newnumber.times do 
+    puts "Bonjour, toi!"
+end

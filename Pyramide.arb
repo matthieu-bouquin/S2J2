@@ -1,0 +1,16 @@
+puts "choisi un nombre entre 1 et 25"
+print "> "
+number = gets.chomp.to_i
+x_diese = 1
+x_espace = number - 1
+number.times do
+    x_espace.times do
+          print " "
+        end
+       x_espace -= 1
+    x_diese.times do
+       print "#"
+       end
+       x_diese += 1
+       puts " "
+end

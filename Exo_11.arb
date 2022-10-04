@@ -1,0 +1,5 @@
+puts "quel age as tu?"
+date = gets.chomp.to_i
+date.times do |i|
+    puts "il y a #{date - i} ans. Tu avais #{i} ans"
+end

@@ -1,0 +1,5 @@
+puts "dis un nombre de Salut"
+number = gets.chomp.to_i
+number.times do 
+    puts "salut, ça fart?"
+end

@@ -1,0 +1,13 @@
+puts "quel age as tu?"
+date = gets.chomp.to_i
+date.times do |i|
+    moy = date / 2
+    if moy == i
+        puts "Il y a #{i} ans tu avais la moitié de ton age"
+    end
+    if i <= 1
+        puts "il y a #{date - i}  ans. Tu avais #{i} an"
+    else
+        puts "il y a #{date - i}  ans. Tu avais #{i} ans"    
+    end
+end

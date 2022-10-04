@@ -1,0 +1,5 @@
+puts "en quelle année es tu né?"
+puts ">"
+birthdate = gets.to_i
+century = 100
+puts "Tu auras 100 ans en #{birthdate + century}"
